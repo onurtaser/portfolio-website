@@ -1,0 +1,162 @@
+*{
+    font-family: 'Source Serif 4', serif;
+}
+
+.hero{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    padding: 150px;
+    color: white;
+}
+
+h1{
+    font-size: 8rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+.hero h2{
+    margin-top: 50px;
+}
+
+.serif-font{
+    font-family: 'Source Serif 4', serif;
+}
+
+.background-colored{
+    background-color: #89A9A9;
+}
+
+.nav-list{
+    padding: 0;
+    margin: 20px;
+    margin-left: 40px;
+    font-size: 1.2rem;
+}
+
+.nav-list > li{
+    display: inline;
+    margin-right: 30px;
+    font-family: 'Source Serif 4', serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+}
+
+.img-onur{
+    border-radius: 50%;
+}
+
+.blue-colored{
+    color: #6795AE;
+}
+
+.hero-div{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.paragraph-limit{
+    width: 70%;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+#resume{
+    background-color: #93B0B0;
+    color: white;
+    padding: 50px;
+}
+
+.border-header{
+    border-bottom: 1px solid white;
+}
+
+
+
+.skills li{
+    font-size: 1.3rem;
+}
+
+
+
+.education li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.logos{
+    margin-left: px;
+}
+
+#projects{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+.text-right{
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .nav-list{
+        font-size: 1.7rem;
+    }
+
+    h1{
+        font-size: 9rem;
+    }
+
+    h2{
+        font-size: 4rem;
+    }
+
+    h3{
+        font-size: 3rem;
+    }
+
+    h4{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    .paragraph-limit{
+        font-size: 1.3rem;
+    }
+
+    #resume li{
+        font-size: 1.5rem;
+    }
+
+    #footer a{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
+
